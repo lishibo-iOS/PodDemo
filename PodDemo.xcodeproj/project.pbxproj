@@ -13,6 +13,7 @@
 		19D22A67215B5FDF00728050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D22A66215B5FDF00728050 /* Assets.xcassets */; };
 		19D22A6A215B5FDF00728050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D22A68215B5FDF00728050 /* LaunchScreen.storyboard */; };
 		19D22A6D215B5FDF00728050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D22A6C215B5FDF00728050 /* main.m */; };
+		19D22A76215B620600728050 /* LTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D22A75215B620600728050 /* LTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		19D22A69215B5FDF00728050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D22A6B215B5FDF00728050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D22A6C215B5FDF00728050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19D22A74215B620600728050 /* LTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTestModel.h; sourceTree = "<group>"; };
+		19D22A75215B620600728050 /* LTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				19D22A5E215B5FD400728050 /* AppDelegate.m */,
 				19D22A60215B5FD400728050 /* ViewController.h */,
 				19D22A61215B5FD400728050 /* ViewController.m */,
+				19D22A73215B618F00728050 /* LYPodLib */,
 				19D22A63215B5FD400728050 /* Main.storyboard */,
 				19D22A66215B5FDF00728050 /* Assets.xcassets */,
 				19D22A68215B5FDF00728050 /* LaunchScreen.storyboard */,
@@ -69,6 +73,15 @@
 				19D22A6C215B5FDF00728050 /* main.m */,
 			);
 			path = PodDemo;
+			sourceTree = "<group>";
+		};
+		19D22A73215B618F00728050 /* LYPodLib */ = {
+			isa = PBXGroup;
+			children = (
+				19D22A74215B620600728050 /* LTestModel.h */,
+				19D22A75215B620600728050 /* LTestModel.m */,
+			);
+			path = LYPodLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D22A76215B620600728050 /* LTestModel.m in Sources */,
 				19D22A62215B5FD400728050 /* ViewController.m in Sources */,
 				19D22A6D215B5FDF00728050 /* main.m in Sources */,
 				19D22A5F215B5FD400728050 /* AppDelegate.m in Sources */,
